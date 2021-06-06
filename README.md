@@ -1,1 +1,2 @@
-# Homework-One-
+# code-Refactor
+For this task I am to review and optimise an existing code for a website to better it for ots costumers. I have added comments on the CSS style sheet and the index.html along with adding a title for the website, and background images to appeal to the websites visitors. I have also added alt tags woth the images for description and changed a dev element to nav due to its contents being for navigational purposes within the website. I have also organised the code to make it easier to read and add on to. 
