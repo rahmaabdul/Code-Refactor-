@@ -6,11 +6,13 @@
 }
 
 /*targeting body*/
-.body {
+/* Body class changed to body tag - removed the full stop */
+body {
     background-color: #d9dcd6;
 }
 
 /*styling the header*/
+/* ask tutor for explaination*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,12 +52,13 @@ a {
     text-decoration: none;
 }
 
-/*targets all p(paragraph elements in the html*/
+/*targets all p (paragraph) elements in the html*/
 p {
     font-size: 16px;
 }
 
 /* image in the centre*/
+/*image not rendering properly*/
 .hero {
     height: 800px;
     width: 100%;
@@ -75,7 +78,7 @@ p {
     margin-left: 25px;
 }
 
-/* this is aimed for the stylinf of the three sections of the website*/
+/* this is aimed for the styling of the three sections of the website*/
 .content {
     width: 75%;
     display: inline-block;
@@ -94,11 +97,15 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead, 
+.benefit-brand,
+.benefit-cost
+ {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* I've combined the classes due to them having the same styling
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -107,13 +114,16 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3
+{
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* combined the classes due to them having the same styling
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -122,14 +132,17 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img
+{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* combined the classes because they have the sane styling
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -140,10 +153,15 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
+
 
 /*styling search engine optimization*/
-.search-engine-optimization {
+.search-engine-optimization, 
+.online-reputation-management,
+.social-media-marketing
+
+{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +170,9 @@ p {
     color: #ffffff;
 }
 
-/*styling online rep management*/
+
+/*
+Combined classes - same styling
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,43 +182,50 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*social media marketing sction*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
-}
+    color: #ffffff; 
+} */
 
-.social-media-marketing img {
-    max-height: 200px;
-}
 
+.online-reputation-management h2,
+.social-media-marketing h2,
+.search-engine-optimization h2
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* combined classes - same styling
+grouped the h2 tags away from the img tags
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/*search engine optimization*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
+.online-reputation-management img, 
+.social-media-marketing img,
+.search-engine-optimization img
+ {
+    max-height: 200px;
+}
+/* combined classes- same styling
+grouped the img tags 
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+.search-engine-optimization img {
+    max-height: 200px;
+}
+*/
 
 
 /*styling the foot of the website*/

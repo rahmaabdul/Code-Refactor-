@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" type="text/css" href="style.css" >
-    <meta name="description" content="This website is about marketing for socila media and online reputation management."
-    <meta name="keywords" content="marketing, social media, online reoputation, brands."
-    <title>HORISEON || A Marketing Agency </title>
+    <meta name="description" content="This website is about marketing for socila media and online reputation management." 
+    <!-- red title tag - problem -->
+    <title>Horiseon seo</title>
 </head>
 <body>
 
 <!--header-->
-    <header> 
+    <header class="header"> 
     <!--heading-->
         <h1>Hori<span class="seo">seo</span>n</h1>
      <!--links for the page-->
@@ -24,18 +24,26 @@
     </nav>
     </header>
      <!--centre image-->
-    <div class="hero" role="img" alt="image shows a person holding a phone  which shows an image demonstrating the rise of online reputation"></div>
-    <div class="content">
+     <!-- <div class="hero" role="img" alt="image shows a person holding a phone  which shows an image demonstrating the rise of online reputation"></div> -->
+     <!-- The above line was removed because the styling is in the css file -->
+     
+     <div class="hero"></div> 
+
+     <!-- I have change the div beneath this comment to main -->
+    <main class="content">
     <img src="C:\Users\Dell\Documents\Code Refactor\images\online-reputation-management.jpg">
 
      <!--search engine optimization-->
-        <div  class="search-engine-optimization">
+     <!-- i have changed the div elements beneath to sections -->
+        <section  class="search-engine-optimization">
+         <!-- i have added an alt tag to the image element -->
         <img src="C:\Users\Dell\Documents\Code Refactor\images\search-engine-optimization.jpg" class="float-left" alt="picture illustrating a notebook with a drawing of SEO mindmap"/>
         <h2>Search Engine Optimization</h2>
         <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
-        </div>
+        </section>
      <!--online reputation management section-->
         <section id="online-reputation-management" class="online-reputation-management">
+            <!-- I have added an alt tag to the image element -->
             <img src="C:\Users\Dell\Documents\Code Refactor\images\digital-marketing-meeting.jpg" class="float-right" alt="this picture shows a group of colleagues working on something around a table" />
             <h2>Online Reputation Management</h2>
             <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
@@ -43,32 +51,40 @@
         </section>
      <!--social media marketing section-->
         <section id="social-media-marketing" class="social-media-marketing">
+            <!-- i have added an alt tag to the image elemnt -->
             <img src="C:\Users\Dell\Documents\Code Refactor\images\social-media-marketing.jpg" class="float-left" alt="picture shows a table where a team is sat and discussing social media marketing"/>
             <h2>Social Media Marketing</h2>
             <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </section>
-        </div>
+    </main>
+
     <!--benefits - right hand section of the website-->
-    <div class="benefits">
-        <div class="benefit-lead">
+    <!-- I have change the div element to an aside -->
+   
+    <aside class="benefits">
+        <!-- I have changed the div elements to sections -->
+        <section class="benefit-lead">
             <h3>Lead Generation</h3>
+            <!-- i have added an alt tag to the image -->
             <img src="C:\Users\Dell\Documents\Code Refactor\images\lead-generation.png" alt="icon illustrating lead-generation">
             <p> Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
-        </div>
-        <div class="benefit-brand">
+        </section>
+        <section class="benefit-brand">
             <h3>Brand Awareness</h3>
+            <!-- I have added an alt tag to the image -->
             <img src="C:\Users\Dell\Documents\Code Refactor\images\brand-awareness.png" alt="icon illustrating brand-awareness"/>
             <p>Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </section>
+        <section class="benefit-cost">
             <h3>Cost Management</h3>
+            <!-- I have added an alt tag to the image -->
             <img src="C:\Users\Dell\Documents\Code Refactor\images\cost-management.png" alt="icon illustrating cost management"/>
             <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
+        </section>
+    </aside>
     <!--footer of the website-->
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
